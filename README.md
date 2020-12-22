@@ -30,3 +30,12 @@ An example of passed parameters:
 ```
 -mode enc -key 5 -data "Lets Encrypt" -alg unicode -in input.txt -out output.txt
 ```
+##How to build
+
+`mvn clean install`
+
+##How to run
+
+Command to run application:
+
+`java -jar target/encryptor-XXX.jar`
